@@ -42,9 +42,9 @@ nav li{
 }
 .header{
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -185,19 +185,15 @@ font-weight: 700;
 padding-bottom: 131px;
 
 }
-footer{
 
-    width: 1600px;
-height: 780px;
-flex-shrink: 0;
-background: #FFF8F3;
-}
 .mn{
     display: flex;
-    gap: 117px;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 113px;
+    
+   padding: 30px 150px;
+    background: #FFF8F3;
+   justify-content: space-between;
+  
+    
 }
 .D{
     color:  #474747;
@@ -212,7 +208,42 @@ height: 56px;
 .op{
     margin: 20px;
     border-radius: 5px;
-background: var(--white-color, #FFF);
+background: white;
+padding: 5px;
+border: 0;
+padding: 18px 30px;
 }
+.oo{
+    margin: 20px;
+    border-radius: 5px;
+
+padding: 5px;
+border: 0;
+padding: 18px 30px;
+
+}
+.dr{
+    margin: 20px;
+   
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    border: 0;
+    width: 150px;
+height: 64px;
+
+    padding: 18px 39px;
+    
+
+padding: 5px;
+}
+.li{
+    margin: 20px;
+    border-radius: 5px;
+
+padding: 5px;
+}
+
 
     
